@@ -1,0 +1,35 @@
+title: The Sy Schiff Art Archive
+email: hello@syschiff.art
+description: >-
+  The digital home of the art of Sy Schiff
+baseurl: ""
+url: "https://syschiff.art"
+
+page_gen-dirs: true
+page_gen:
+- data: all_images
+  template: image
+  dir: img
+  name: basename
+
+google_analytics: G-WRJYZ2JTRD
+  
+# Build settings
+theme: minima
+plugins:
+  - jekyll-datapage-generator
+
+# Exclude from processing.
+exclude:
+  - scripts/
+  - .tmp/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

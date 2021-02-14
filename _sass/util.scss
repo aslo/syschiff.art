@@ -1,0 +1,11 @@
+.hoverable {
+  @include ease-transition;
+
+  &:hover {
+    opacity: .4;
+  }
+}
+
+.center {
+  text-align: center;
+}
