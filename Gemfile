@@ -1,10 +1,10 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.2.0"
-gem "minima", "~> 2.5.1"
 
 group :jekyll_plugins do
   gem "jekyll-datapage-generator" , "~> 1.3.0"
+  gem "jekyll-seo-tag", "~> 2.7.1"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

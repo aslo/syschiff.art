@@ -13,13 +13,11 @@ page_gen:
   name: basename
 
 google_analytics: G-WRJYZ2JTRD
-sass:
-    style: compressed
   
 # Build settings
-theme: minima
 plugins:
   - jekyll-datapage-generator
+  - jekyll-seo-tag
 
 # Exclude from processing.
 exclude:
