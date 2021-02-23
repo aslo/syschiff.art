@@ -21,9 +21,9 @@ STRIPPED="${TMP}/${UUID}_stripped.jpg"
 convert "$TMP_IMG" -strip $STRIPPED
 
 OUT="${DIR}/../assets/images"
-convert "$STRIPPED" -resize 1400 "${OUT}/${UUID}_full.jpg"
-convert "$STRIPPED" -resize 300 "${OUT}/${UUID}_thumb.jpg"
-convert "$STRIPPED" -resize 300x300^ -gravity Center -extent 300x300 "${OUT}/${UUID}_square.jpg"
+convert "$STRIPPED" -resize 1400 -quality 85 "${OUT}/${UUID}_full.jpg"
+convert "$STRIPPED" -resize 300 -quality 85 "${OUT}/${UUID}_thumb.jpg"
+convert "$STRIPPED" -resize 300x300^ -quality 85 -gravity Center -extent 300x300 "${OUT}/${UUID}_square.jpg"
 
 # Add an entry to all_images data file
 echo "${UUID}," >> "${DIR}/../_data/all_images.csv"
