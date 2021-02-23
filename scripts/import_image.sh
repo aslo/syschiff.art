@@ -17,13 +17,18 @@ mkdir -p "$TMP"
 
 cp "$IMG" "$TMP_IMG"
 
+# Strip image metadata
 STRIPPED="${TMP}/${UUID}_stripped.jpg"
 convert "$TMP_IMG" -strip $STRIPPED
 
+# Resize
 OUT="${DIR}/../assets/images"
 convert "$STRIPPED" -resize 1400 -quality 85 "${OUT}/${UUID}_full.jpg"
 convert "$STRIPPED" -resize 300 -quality 85 "${OUT}/${UUID}_thumb.jpg"
 convert "$STRIPPED" -resize 300x300^ -quality 85 -gravity Center -extent 300x300 "${OUT}/${UUID}_square.jpg"
 
+# Get image aspect ratio of thumbnail
+ASPECT_RATIO=$(convert "${OUT}/${UUID}_thumb.jpg" -format "%[fx:w/h]" info:)
+
 # Add an entry to all_images data file
-echo "${UUID}," >> "${DIR}/../_data/all_images.csv"
+echo "${IMG},${ASPECT_RATIO}," >> "${DIR}/../_data/all_images.csv"

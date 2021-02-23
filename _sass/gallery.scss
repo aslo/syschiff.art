@@ -21,10 +21,17 @@
     padding-right: 4px;
   }
 
-  img {
+  .img-container {
+    height: 0;
+    position: relative;
+    width: 100%;
     margin-top: 8px;
     vertical-align: middle;
-    width: 100%;
+
+    img {
+      position: absolute;
+      top: 0;
+    }
   }
 
   /* Responsive layout - makes a two column-layout instead of four columns */

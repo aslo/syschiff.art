@@ -9,14 +9,14 @@ layout: default
         <div class="row">
             {% for img in page.images limit: row_size %}
                 <div class="column">
-                    <a href="/img/{{img.basename}}/"><img class="hoverable" src="/assets/images/{{img.basename}}_square.jpg"></a>                
+                    {% include thumbnail_square.html %}
                 </div>
             {% endfor %}
         </div>
         <div class="row">
             {% for img in page.images offset: row_size %}
                 <div class="column">
-                    <a href="/img/{{img.basename}}/"><img class="hoverable" src="/assets/images/{{img.basename}}_square.jpg"></a>                
+                    {% include thumbnail_square.html %}
                 </div>
             {% endfor %}
         </div>

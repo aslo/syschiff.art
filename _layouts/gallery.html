@@ -12,27 +12,27 @@ layout: default
 
         <div class="column">
             {% for img in collection limit: col_size %}
-                <a href="/img/{{img.basename}}/"><img class="hoverable" src="/assets/images/{{img.basename}}_thumb.jpg"></a>
+                {% include thumbnail.html %}
             {% endfor %}
         </div>
 
         <div class="column">
             {% for img in collection offset: col_size limit: col_size %}
-                <a href="/img/{{img.basename}}/"><img class="hoverable" src="/assets/images/{{img.basename}}_thumb.jpg"></a>
+                {% include thumbnail.html %}
             {% endfor %}
         </div>
 
         <div class="column">
             {% assign offset = col_size | times: 2 %}
             {% for img in collection offset: offset limit: col_size %}
-                <a href="/img/{{img.basename}}/"><img class="hoverable" src="/assets/images/{{img.basename}}_thumb.jpg"></a>
+                {% include thumbnail.html %}
             {% endfor %}
         </div>
 
         <div class="column">
             {% assign offset = col_size | times: 3 %}
             {% for img in collection offset: offset %}
-                <a href="/img/{{img.basename}}/"><img class="hoverable" src="/assets/images/{{img.basename}}_thumb.jpg"></a>
+                {% include thumbnail.html %}
             {% endfor %}
         </div>
     </div>
