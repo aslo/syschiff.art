@@ -31,4 +31,4 @@ convert "$STRIPPED" -resize 300x300^ -quality 85 -gravity Center -extent 300x300
 ASPECT_RATIO=$(convert "${OUT}/${UUID}_thumb.jpg" -format "%[fx:w/h]" info:)
 
 # Add an entry to all_images data file
-echo "${IMG},${ASPECT_RATIO}," >> "${DIR}/../_data/all_images.csv"
+echo "${UUID},${ASPECT_RATIO}," >> "${DIR}/../_data/all_images.csv"
