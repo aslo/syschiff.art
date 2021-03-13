@@ -6,7 +6,7 @@ routes:
       gzip: true
     - route: "^.+\\.(png|jpg|jpeg)$"
       headers:
-         Cache-Control: "max-age=6259200, no-transform, public"
+         Cache-Control: "max-age=2592000, no-transform, public"
       gzip: false
       # cache html for 5 minutes
     - route: "^.+\\.(html|xml|json)$"
