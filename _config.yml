@@ -10,7 +10,7 @@ page_gen:
 - data: all_images
   template: image
   dir: img
-  name: basename
+  name: title
 
 google_analytics: G-WRJYZ2JTRD
   

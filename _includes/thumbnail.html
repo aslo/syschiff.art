@@ -1,4 +1,4 @@
 {% assign padding = 1.0 | divided_by: img.aspect_ratio | times: 100.0 %}
 <div class="img-container" style="padding-top: {{padding}}%;">
-    <a href="/img/{{img.basename}}/"><img class="hoverable" src="/assets/images/{{img.basename}}_thumb.jpg"></a>
+    <a href="/img/{{img.title | slugify }}/"><img class="hoverable" src="/assets/images/{{img.basename}}_thumb.jpg" alt="{{img.title}}"></a>
 </div>

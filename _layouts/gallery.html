@@ -11,27 +11,31 @@ layout: default
         {% assign col_size = collection.size | divided_by: 4.0 | ceil | at_least: 1 %}
 
         <div class="column">
-            {% for img in collection limit: col_size %}
+            {% for record in collection limit: col_size %}
+                {% assign img = record[1] %}
                 {% include thumbnail.html %}
             {% endfor %}
         </div>
 
         <div class="column">
-            {% for img in collection offset: col_size limit: col_size %}
+            {% for record in collection offset: col_size limit: col_size %}
+                {% assign img = record[1] %}
                 {% include thumbnail.html %}
             {% endfor %}
         </div>
 
         <div class="column">
             {% assign offset = col_size | times: 2 %}
-            {% for img in collection offset: offset limit: col_size %}
+            {% for record in collection offset: offset limit: col_size %}
+                {% assign img = record[1] %}
                 {% include thumbnail.html %}
             {% endfor %}
         </div>
 
         <div class="column">
             {% assign offset = col_size | times: 3 %}
-            {% for img in collection offset: offset %}
+            {% for record in collection offset: offset %}
+                {% assign img = record[1] %}
                 {% include thumbnail.html %}
             {% endfor %}
         </div>

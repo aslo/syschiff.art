@@ -7,14 +7,16 @@ layout: default
     <div class="gallery">
         {% assign row_size = page.images.size | divided_by: 2 | at_least: 1 %}
         <div class="row">
-            {% for img in page.images limit: row_size %}
+            {% for id in page.images limit: row_size %}
+                {% assign img = site.data.all_images[id] %} 
                 <div class="column">
                     {% include thumbnail_square.html %}
                 </div>
             {% endfor %}
         </div>
         <div class="row">
-            {% for img in page.images offset: row_size %}
+            {% for id in page.images offset: row_size %}
+                {% assign img = site.data.all_images[id] %} 
                 <div class="column">
                     {% include thumbnail_square.html %}
                 </div>
