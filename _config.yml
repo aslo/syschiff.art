@@ -21,6 +21,7 @@ plugins:
 
 # Exclude from processing.
 exclude:
+  - README.md
   - scripts/
   - .tmp/
   - .sass-cache/
