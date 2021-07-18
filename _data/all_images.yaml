@@ -2,79 +2,85 @@
   basename: 3qathwrp
   aspect_ratio: 0.917431
   title: Woman Dressing
-  medium: Pastel on Paper
+  medium: Pastel on paper
 
 621hldf1:
   basename: 621hldf1
   aspect_ratio: 1.5
   title: Cottages on the Shore
-  medium: Pastel on Paper
+  medium: Pastel on paper
 
 24vy9xjl:
   basename: 24vy9xjl
   aspect_ratio: 1.2987
   title: Nighttime Street 1
-  medium: Pastel on Paper
+  medium: Pastel on paper
 
 1b6v3nnd:
   basename: 1b6v3nnd
   aspect_ratio: 1.38249
   title: Boy Fishing
-  medium: Pastel on Paper
+  medium: Pastel on paper
 
 ijq8axyx:
   basename: ijq8axyx
   aspect_ratio: 1.46341
   title: Rowboats in Harbor
-  medium: Pastel on Paper
+  medium: Pastel on paper
 
 5mv22hn4:
   basename: 5mv22hn4
   aspect_ratio: 1.47059
   title: Forest Meadow
-  medium: Pastel on Paper
+  medium: Pastel on paper
 
 nv00c9u4:
   basename: nv00c9u4
   aspect_ratio: 1.5
   title: Autumn Cottage
-  medium: Pastel on Paper
+  medium: Pastel on paper
 
 bonxuy93:
   basename: bonxuy93
   aspect_ratio: 1.44231
   title: Forest Stream
-  medium: Pastel on Paper
+  medium: Pastel on paper
 
 r0e9o4gt:
   basename: r0e9o4gt
   aspect_ratio: 1.44231
   title: Man Fishing
-  medium: Pastel on Paper
+  medium: Pastel on paper
 
 6p2obavh:
   basename: 6p2obavh
   aspect_ratio: 0.696056
   title: Robed Figures
-  medium: Pastel on Paper
+  medium: Pastel on paper
 
 1umjrlc9:
   basename: 1umjrlc9
   aspect_ratio: 1.48515
   title: Trees in Meadow (unfinished)
-  medium: Pastel on Paper
+  medium: Pastel on paper
+
+aps5qjps:
+  basename: aps5qjps
+  aspect_ratio: 0.80429
+  title: Spanish Moss
+  medium: Pen and ink
 
 oy5pv1al:
   basename: oy5pv1al
   aspect_ratio: 1.4218
   title: Dancers in Dresses
-  medium: Pastel on Paper
+  medium: Pastel on paper
 
 8gqugsbb:
   basename: 8gqugsbb
   aspect_ratio: 1.43541
   title: Wetland Footpath
-  medium: Pastel on Paper
+  medium: Pastel on paper
 
 jvizmdj7:
   basename: jvizmdj7
@@ -86,77 +92,161 @@ jvizmdj7:
   basename: 0up1vdii
   aspect_ratio: 1.36364
   title: House in the Woods
-  medium: Pastel on Paper
+  medium: Pastel on paper
 
 pvl28hs6:
   basename: pvl28hs6
   aspect_ratio: 1.44928
   title: Grassy Dunes
-  medium: Pastel on Paper
+  medium: Pastel on paper
 
 x5f1fp0h:
   basename: x5f1fp0h
   aspect_ratio: 1.48515
   title: Wetland Walkway and Bridge
-  medium: Pastel on Paper
+  medium: Pastel on paper
 
 nns830fi:
   basename: nns830fi
   aspect_ratio: 1.57895
   title: Monument Valley 1
-  medium: Pastel on Paper
+  medium: Pastel on paper
 
 q1c6omic:
   basename: q1c6omic
   aspect_ratio: 1.5
   title: Dune Fence
-  medium: Pastel on Paper
+  medium: Pastel on paper
 
 lgtylne6:
   basename: lgtylne6
   aspect_ratio: 1.42857
   title: Nighttime Street 2
-  medium: Pastel on Paper
+  medium: Pastel on paper
 
 lmqlay26:
   basename: lmqlay26
   aspect_ratio: 1.44231
   title: Three Dancers
-  medium: Pastel on Paper
+  medium: Pastel on paper
+
+zyxaavea:
+  basename: zyxaavea
+  aspect_ratio: 0.874636
+  title: Goldenrod
+  medium: Linoleum print
 
 h2fmzj51:
   basename: h2fmzj51
   aspect_ratio: 1.40845
   title: Autumn Trees
-  medium: Pastel on Paper
+  medium: Pastel on paper
 
 8q7hjlv7:
   basename: 8q7hjlv7
   aspect_ratio: 0.742574
   title: Sunflowers in Vase
-  medium: Pastel on Paper
+  medium: Pastel on paper
 
 giy63jxu:
   basename: giy63jxu
   aspect_ratio: 1.52284
   title: Seaside Vegetation
-  medium: Pastel on Paper
+  medium: Pastel on paper
 
 xibljwqh:
   basename: xibljwqh
   aspect_ratio: 1.33333
   title: Swamp Trees
-  medium: Pastel on Paper
+  medium: Pastel on paper
 
 8teja5c7:
   basename: 8teja5c7
   aspect_ratio: 1.57895
   title: Monument Valley 2
-  medium: Pastel on Paper
+  medium: Pastel on paper
 
 iyjcriz3:
   basename: iyjcriz3
   aspect_ratio: 1.53061
   title: Wetland Bridge
-  medium: Pastel on Paper
+  medium: Pastel on paper
 
+hszhlor6:
+  basename: hszhlor6
+  aspect_ratio: 1.23967
+  title: Sailboats at Sunset
+  medium: Woodblock print
+
+5s4s7ib4:
+  basename: 5s4s7ib4
+  aspect_ratio: 1.1811
+  title: Wetland Stream
+  medium: Pen and ink
+
+a2f36heq:
+  basename: a2f36heq
+  aspect_ratio: 1.77515
+  title: Fishing Village
+  medium: Pen and ink
+
+0xxmj5ud:
+  basename: 0xxmj5ud
+  aspect_ratio: 1.30435
+  title: Vegetation and Sand
+  medium: Pastel on paper
+
+# TODO: slugify link not consistent with generated page 
+# 2xwxckwp:
+#   basename: 2xwxckwp
+#   aspect_ratio: 0.852273
+#   title: Queen Anne's Lace
+#   medium: MEDIUM
+
+gk3byi51:
+  basename: gk3byi51
+  aspect_ratio: 0.787402
+  title: Snowy Owl
+  medium: Linoleum print
+
+llhqcfm4:
+  basename: llhqcfm4
+  aspect_ratio: 0.616016
+  title: Daisies in Water
+  medium: Pastel on paper
+
+dn1di6dx:
+  basename: dn1di6dx
+  aspect_ratio: 0.789474
+  title: Great Horned Owl
+  medium: Linoleum print
+
+lakvzny0:
+  basename: lakvzny0
+  aspect_ratio: 1.21951
+  title: The Conductor
+  medium: Woodblock print
+
+nstz3wf5:
+  basename: nstz3wf5
+  aspect_ratio: 1.875
+  title: Hot Lips
+  medium: Woodblock print
+
+ntr7v4yh:
+  basename: ntr7v4yh
+  aspect_ratio: 0.793651
+  title: Heterochromatic Woman
+  medium: Pastel on paper
+
+d75jrgiy:
+  basename: d75jrgiy
+  aspect_ratio: 1.0101
+  title: Water Lily
+  medium: Linoleum print
+
+gqci8v6q:
+  basename: gqci8v6q
+  aspect_ratio: 1.1811
+  title: Birch Trees and Water
+  medium: Pen and ink
