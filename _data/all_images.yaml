@@ -298,3 +298,80 @@ cwocu27g:
   aspect_ratio: 1.5
   title: Flock of Shorebirds
   medium: Driftwood carving
+
+# TODO aspect ratios below
+rihebtii:
+  basename: rihebtii
+  aspect_ratio: 1.0
+  title: Stag
+  medium: Driftwood carving
+  alternate_images:
+  - basename: 4m0x29hz
+  - basename: vrw3dpqa
+
+z5zz4egv:
+  basename: z5zz4egv
+  aspect_ratio: 1.0
+  title: Bird 1
+  medium: Driftwood carving
+  alternate_images: 
+    - basename: p8w3e5cm
+
+tmb9z5of:
+  basename: tmb9z5of
+  aspect_ratio: 1.0
+  title: Bird 2
+  medium: Driftwood carving
+  alternate_images: 
+    - basename: 4uf008i3
+    - basename: q9kr7h46
+    - basename: rnio68e5
+
+n9i4uyi5:
+  basename: n9i4uyi5
+  aspect_ratio: 1.0
+  title: Bird 3
+  medium: Driftwood carving
+  alternate_images: 
+    - basename: x6fdtxjq
+    - basename: d7q045jy
+    - basename: h7poofb0
+
+hyrxifzf:
+  basename: hyrxifzf
+  aspect_ratio: 1.0
+  title: Jaguar
+  medium: Driftwood carving
+  alternate_images: 
+  - basename: iwni0on9
+  - basename: vb11hpv0
+
+p3b656a8:
+  basename: p3b656a8
+  aspect_ratio: 1.0
+  title: Bull
+  medium: Driftwood carving
+  alternate_images: 
+  - basename: wedcs3uy
+  - basename: 2tvc2zrc
+
+o3ibjrxo:
+  basename: o3ibjrxo
+  aspect_ratio: 1.0
+  title: School of Fish
+  medium: Driftwood carving
+  alternate_images: 
+  - basename: e2k2p2l3
+  - basename: h8zvh0cb
+  - basename: aeiewozv
+  - basename: 03t2o3sj
+  - basename: cz2et9eu
+
+qs4ojpvj:
+  basename: qs4ojpvj
+  aspect_ratio: 1.0
+  title: Mallard
+  medium: Driftwood carving
+  alternate_images: 
+  - basename: ra9b18sp
+  - basename: hipiuwu5

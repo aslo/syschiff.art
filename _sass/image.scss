@@ -4,7 +4,7 @@
         text-align: left;
     }
 
-    img {
+    .main-img img {
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -15,5 +15,22 @@
     .subhead {
         color: $grey-color-dark;
         margin-bottom: 20px;
+    }
+
+    .alternate-imgs {
+        --num-images: 5;
+        --padding: 20px;
+        --total-padding-width: calc(calc(var(--num-images) - 1) * var(--padding));
+
+        .img-thumb {
+            float: left;
+            cursor: pointer;
+            margin-top: 20px;
+
+            width: calc(calc(100% - var(--total-padding-width)) / var(--num-images));
+            &:not(:nth-child(5n+0)) {
+                margin-right: var(--padding);
+            } 
+        }
     }
 } 

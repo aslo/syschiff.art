@@ -6,6 +6,18 @@ layout: default
     <h1>{{page.title}}</h1>
     <p class="subhead">{{ page.medium }}</p>
 
-    <img src="/assets/images/{{page.basename}}_full.jpg" alt="{{page.title}}">
+    <div class="main-img"><img src="/assets/images/{{page.basename}}_full.jpg" alt="{{page.title}}"></div>
 
+    {% if page.alternate_images.size > 0 %}
+        <div class="alternate-imgs">
+            <div class="img-thumb hoverable hover">
+                <img src="/assets/images/{{page.basename}}_square.jpg" alt="{{page.title}}" data-basename="{{page.basename}}">
+            </div>
+            {% for img in page.alternate_images %}
+                <div class="img-thumb hoverable">
+                    <img src="/assets/images/{{img.basename}}_square.jpg" alt="{{img.title}}" data-basename="{{img.basename}}">
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
 </div>

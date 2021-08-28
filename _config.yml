@@ -11,10 +11,6 @@ page_gen:
   template: image
   dir: img
   name: title
-- data: multi_images
-  template: multi_image
-  dir: img
-  name: title
 
 google_analytics: G-WRJYZ2JTRD
   
