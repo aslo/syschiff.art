@@ -1,10 +1,20 @@
 .multi-image-page {
     .imgs {
+        width:100%;
+        display: table;
+      
+        ul {
+          display: table-row;
+        }
+  
+        ul li{
+          display: table-cell;
+          text-align: center;
+          padding-top: 10px;
+          padding-right: 10px;
+        }
+
         .img-thumb {
-            margin-top: 20px;
-            margin-right: 20px;
-            float: left;
-            width: 200px;
             cursor: pointer;
         }
     }
