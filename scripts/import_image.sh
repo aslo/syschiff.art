@@ -21,4 +21,4 @@ convert "$IMG" -strip -resize 300x300^ -quality 85 -gravity Center -extent 300x3
 ASPECT_RATIO=$(convert "${OUT}/${UUID}_thumb.jpg" -format "%[fx:w/h]" info:)
 
 # Add an entry to all_images data file
-echo -e "\n${UUID}:\n\tbasename: ${UUID}\n\taspect_ratio: ${ASPECT_RATIO}\n\ttitle: ${UUID}\n\tmedium: MEDIUM" >> "${DIR}/../_data/all_images.yaml"
+echo -e "\n${UUID}:\n  basename: ${UUID}\n  aspect_ratio: ${ASPECT_RATIO}\n  title: ${UUID}\n  medium: MEDIUM" >> "${DIR}/../_data/all_images.yaml"
