@@ -299,10 +299,9 @@ cwocu27g:
   title: Flock of Shorebirds
   medium: Driftwood carving
 
-# TODO aspect ratios below
 rihebtii:
   basename: rihebtii
-  aspect_ratio: 1.0
+  aspect_ratio: 1.5
   title: Stag
   medium: Driftwood carving
   alternate_images:
@@ -311,7 +310,7 @@ rihebtii:
 
 z5zz4egv:
   basename: z5zz4egv
-  aspect_ratio: 1.0
+  aspect_ratio: 1.5
   title: Bird 1
   medium: Driftwood carving
   alternate_images: 
@@ -319,7 +318,7 @@ z5zz4egv:
 
 tmb9z5of:
   basename: tmb9z5of
-  aspect_ratio: 1.0
+  aspect_ratio: 1.5
   title: Bird 2
   medium: Driftwood carving
   alternate_images: 
@@ -329,7 +328,7 @@ tmb9z5of:
 
 n9i4uyi5:
   basename: n9i4uyi5
-  aspect_ratio: 1.0
+  aspect_ratio: 1.5
   title: Bird 3
   medium: Driftwood carving
   alternate_images: 
@@ -339,7 +338,7 @@ n9i4uyi5:
 
 hyrxifzf:
   basename: hyrxifzf
-  aspect_ratio: 1.0
+  aspect_ratio: 1.5
   title: Jaguar
   medium: Driftwood carving
   alternate_images: 
@@ -348,7 +347,7 @@ hyrxifzf:
 
 p3b656a8:
   basename: p3b656a8
-  aspect_ratio: 1.0
+  aspect_ratio: 1.5 
   title: Bull
   medium: Driftwood carving
   alternate_images: 
@@ -357,7 +356,7 @@ p3b656a8:
 
 o3ibjrxo:
   basename: o3ibjrxo
-  aspect_ratio: 1.0
+  aspect_ratio: 1.5
   title: School of Fish
   medium: Driftwood carving
   alternate_images: 
@@ -369,7 +368,7 @@ o3ibjrxo:
 
 qs4ojpvj:
   basename: qs4ojpvj
-  aspect_ratio: 1.0
+  aspect_ratio: 0.714
   title: Mallard
   medium: Driftwood carving
   alternate_images: 
