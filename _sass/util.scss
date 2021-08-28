@@ -1,6 +1,9 @@
 .hoverable {
   @include ease-transition;
 
+  &.hover {
+    opacity: .4;
+  }
   &:hover {
     opacity: .4;
   }

@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="multi-image-page">
+    <h1>{{page.title}}</h1>
+    <p class="subhead">{{ page.medium }}</p>
+
+    <div class="main-img"><img src="/assets/images/{{page.images[0].basename}}_full.jpg" alt="{{page.title}}"></div>
+
+    <div class="imgs">
+        <div class="img-thumb hoverable hover">
+            {% assign img = page.images[0] %}
+            <img src="/assets/images/{{img.basename}}_square.jpg" alt="{{page.images[0].title}}" data-basename="{{img.basename}}">
+        </div>
+        {% for img in page.images offset: 1 %}
+            <div class="img-thumb hoverable">
+                <img src="/assets/images/{{img.basename}}_square.jpg" alt="{{img.title}}" data-basename="{{img.basename}}">
+            </div>
+        {% endfor %}
+    </div>
+</div>
