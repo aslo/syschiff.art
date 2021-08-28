@@ -197,11 +197,11 @@ a2f36heq:
   medium: Pastel on paper
 
 # TODO: slugify link not consistent with generated page 
-# 2xwxckwp:
-#   basename: 2xwxckwp
-#   aspect_ratio: 0.852273
-#   title: Queen Anne's Lace
-#   medium: MEDIUM
+2xwxckwp:
+  basename: 2xwxckwp
+  aspect_ratio: 0.852273
+  title: Queen Annes Lace
+  medium: Linoleum print
 
 gk3byi51:
   basename: gk3byi51
